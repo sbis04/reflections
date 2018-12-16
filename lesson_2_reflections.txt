@@ -8,4 +8,32 @@ our commits made in the future.
 Staging area is the joining area between the working directory and the repository. The files that are to be commited
 must pass through through the staging area. It helps in selecting the files that are to be commited.
 
-3)   
+3) How can you use the staging area to make sure you have one commit per logical change?
+
+We can add all the files that we have modified in the staging area. Then we can commit the changes separately one by
+one without forgetting of making commits for every logical change.
+
+4) What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches would help in keeping the history organized as we can make different versions in different languages or make
+different versions in terms of the difficulty in game. Branches would help in keeping the history clean for the different
+versions in different branches.
+
+5) How do the diagrams help you visualize the branch structure?
+
+Diagrams are more easy to understand than the textual way of representation, so diagrams would help in remembering the key
+concepts about the branches and the commits, and whether a commit is reachable or unreachable.
+
+6) What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging two branches helps to combine the commits of both the branches and introduce all the changes done in that branch
+into the master branch along with all the changes that were already present in the master branch from before. We represent
+it in the diagram with two back arrows from the merged branch to the two parent branch it specify that it has two parent
+branches.
+
+7) What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Git's automatic merging saves a lot of time when then there are no conflicts but it may cause changes in logic which might
+lead to a dangerous situation in the future.
+Always doing manual merging would take a lot of time and there might be many typos in the code. But it might prevent logical
+errors that might get introduced by automatic merging. 
