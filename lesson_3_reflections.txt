@@ -33,3 +33,13 @@ I can collaborate with others without using GitHub by sending the files to each
 collaborators or uploading to Google Drive and share it with other collaborators.
 But these ways would be much difficult and would lead to mistakes in the future,
 so GitHub is the most convenient way to collaborate.
+
+6) When would you want to make changes in a separate branch rather than directly
+in master? What benefits does each approach have?
+
+When we work on different features of any project that we are not sure whether it
+would work properly or not not we might not want to add it to the master branch as
+some would collaborate and work on that part of the branch.
+Making changes in separate branches, rather than directly on the master, keeps the
+things organized. Later we can merge the branches into the master that we want to
+add in our main project. 
