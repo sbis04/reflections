@@ -18,3 +18,10 @@ use one instead of another?
 Forks are used within GitHub server. Clones are used both within GitHub and in
 our local computer. Branches are used within a repository. We would use fork within
 GitHub but not in my own computer.
+
+4) What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+Having last known copy helps to keep the repo on the computer and on GitHub
+syncronized so that we can know which files are on GitHub and which are in our
+computer still to be pushed to GitHub.
