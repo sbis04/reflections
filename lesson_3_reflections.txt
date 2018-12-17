@@ -11,3 +11,10 @@ automatically stay up-to-date with your remote repository?
 Pulling changes manually would not cause unexpected pulling of wrong editing
 so I think manual pulling would be a better option than pulling automatically from
 GitHub.
+
+3) Describe the differences between forks, clones, and branches. When would you
+use one instead of another?
+
+Forks are used within GitHub server. Clones are used both within GitHub and in
+our local computer. Branches are used within a repository. We would use fork within
+GitHub but not in my own computer.
